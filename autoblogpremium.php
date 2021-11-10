@@ -45,7 +45,7 @@ function autoblog_encode_url_component( $matches ) {
 	return urlencode( $matches[0] );
 }
 
-require_once dirname( __FILE__ ) . '/autoblogincludes/extra/wpmudev-dash-notification.php';
+//require_once dirname( __FILE__ ) . '/autoblogincludes/extra/wpmudev-dash-notification.php';
 
 /**
  * Parses URL addresses contained multibyte characters.
